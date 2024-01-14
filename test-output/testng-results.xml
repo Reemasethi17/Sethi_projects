@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-08T07:42:55 IST" name="Suite" finished-at="2023-12-08T07:44:47 IST" duration-ms="111881">
+    <groups>
+    </groups>
+    <test started-at="2023-12-08T07:42:55 IST" name="FirefoxTest" finished-at="2023-12-08T07:43:13 IST" duration-ms="17273">
+      <class name="pomdemo_package.Pom_Calling">
+        <test-method signature="call_method(java.lang.String)[pri:0, instance:pomdemo_package.Pom_Calling@7722c3c3]" started-at="2023-12-08T07:42:56 IST" name="call_method" finished-at="2023-12-08T07:43:13 IST" duration-ms="17242" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- call_method -->
+      </class> <!-- pomdemo_package.Pom_Calling -->
+    </test> <!-- FirefoxTest -->
+    <test started-at="2023-12-08T07:42:56 IST" name="ChromeTest" finished-at="2023-12-08T07:43:20 IST" duration-ms="24064">
+      <class name="pomdemo_package.Pom_Calling">
+        <test-method signature="call_method(java.lang.String)[pri:0, instance:pomdemo_package.Pom_Calling@769f71a9]" started-at="2023-12-08T07:42:56 IST" name="call_method" finished-at="2023-12-08T07:43:20 IST" duration-ms="24046" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- call_method -->
+      </class> <!-- pomdemo_package.Pom_Calling -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2023-12-08T07:42:55 IST" name="EdgeTest" finished-at="2023-12-08T07:44:47 IST" duration-ms="111881">
+      <class name="pomdemo_package.Pom_Calling">
+        <test-method signature="call_method(java.lang.String)[pri:0, instance:pomdemo_package.Pom_Calling@243c4f91]" started-at="2023-12-08T07:42:56 IST" name="call_method" finished-at="2023-12-08T07:44:47 IST" duration-ms="111860" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- call_method -->
+      </class> <!-- pomdemo_package.Pom_Calling -->
+    </test> <!-- EdgeTest -->
+  </suite> <!-- Suite -->
+</testng-results>
